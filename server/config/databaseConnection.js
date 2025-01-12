@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 exports.dbConnect = () => {
-   mongoose.connect("mongodb+srv://someonn4:8eCKE8FrXTwS2qoI@cluster0.o41uwwq.mongodb.net/hotel", {})
+   mongoose.connect("...", {})
       .then(() => {
          console.log('Database Connected Successfully');
       })

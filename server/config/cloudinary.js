@@ -3,9 +3,9 @@ const cloudinary = require('cloudinary').v2;
 exports.cloudinaryConnection = () => {
    try {
       cloudinary.config({
-         cloud_name: "dfd1cvajy",
-         api_key: "732154562864739",
-         api_secret: "40JSwduLjnxTJt-xWuA0v5ExbzQ",
+         cloud_name: "your_name",
+         api_key: "your",
+         api_secret: "your",
       })
    } catch (error) {
       console.log('Something went wrong in Cloudinary Connection', error)
